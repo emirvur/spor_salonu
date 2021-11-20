@@ -1,15 +1,15 @@
 import React from 'react'
-import DetailCard from '../component/detailCard'
-import Infocard from '../component/infocard'
-import './sallondetail.css'
 
-export default function SallonDetail() {
+import Infocard from '../component/infocard'
+import './sallonlist.css'
+
+export default function Sallonlist() {
     return (
-        <div className="sallondetail">
-            <div className="detailtitle">
+        <div className="sallonlist">
+            <div className="listtitle">
                 SPOR SALONLARI
             </div>
-            <div className="detaililce">
+            <div className="listilce">
                <div className="ilceadfiltre">
                <div class="dropdown">
   <button class="dropbtn">İlçeler</button>
@@ -28,12 +28,12 @@ export default function SallonDetail() {
   <div class="dropdown-content">
   <a href="#">Fitness</a>
   <a href="#">Yoga</a>
-  <a href="#">VÜcut Geliştirme</a>
+  <a href="#">Vücut Geliştirme</a>
   </div>
 </div>
                </div>
             </div>
-            <div className="detailwrapper">
+            <div className="listwrapper">
             <Infocard></Infocard>
             <Infocard></Infocard>
             <Infocard></Infocard>

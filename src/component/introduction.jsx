@@ -5,9 +5,7 @@ export default function Introduction() {
     return (
         <div className="intro">
             <div className="introwrapper">
-               <div className="title">
-               E-SPORUM
-               </div>
+         
                <div className="photo">
                   <div className="phototitle">
                       SPOR YAPACAGINIZ YERI BULMAK ARTIK COK KOLAY

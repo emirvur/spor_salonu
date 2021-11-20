@@ -4,7 +4,7 @@ import SallonCard from './sallonCard'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-export default function Salon() {
+export default function Sallon() {
     const responsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.

@@ -19,7 +19,7 @@ export default function Topbar() {
             </Link>
           </li>
           <li className="topListItem">
-          <Link className="link" to="/detail">
+          <Link className="link" to="/list">
               Spor Salonları
             </Link>
           </li>
@@ -41,5 +41,6 @@ export default function Topbar() {
     
       </div>
     </div>
+    
   );
 }
