@@ -1,0 +1,86 @@
+.introwrapper{
+    padding: 0;
+    height: 400px;
+
+
+    display: flex;
+    flex-direction: column;
+}
+.title{
+   height: 20%;
+   width: 100%;
+ color: navy;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 36px;
+
+}
+.photo{
+    background-image: url("https://images.pexels.com/photos/1167355/pexels-photo-1167355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   background-color: blueviolet;
+}
+.phototitle{
+    font-size: 24px;
+}
+.photodesc{
+    width: 50%;
+}
+.photobutton{
+    display: flex;
+    flex-direction: row;
+}
+.buttonsalon{
+    margin-left: 20px;
+
+}
+.button {
+   
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button2{
+    background-color: #008CBA; 
+    color: white; 
+    border: 2px solid #008CBA;
+    border-radius: 4px
+  }
+  .button2:hover {
+    background-color: white;
+    color: #008CBA;
+  }
+  .search-container{
+    display: flex;
+    height: 40px;
+    
+  }
+  .search-container button {
+    float: right;
+    padding: 6px 10px;
+
+    background: orangered;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+  }
+  .search-container button:hover {
+
+  }
+  .searchform{
+    display: flex;
+  }

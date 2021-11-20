@@ -1,0 +1,24 @@
+.sallon{
+    margin-top: 200px;
+    width: 100%;
+}
+.sallonWrapper{
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+}
+.sallonTitle{
+    height: 20%;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+.caro{
+    height: 80%;
+
+    display: flex;
+    justify-content: space-evenly;
+}

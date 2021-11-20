@@ -1,0 +1,87 @@
+.top {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .topLeft,
+  .topRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .topIcon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+  }
+  
+  .topCenter {
+    flex: 10;
+  }
+  
+  .topList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li:hover{
+    border-top: 3px solid orange;
+  }
+  
+  .topListItem {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .topListItem:hover{
+      color: gray;
+  }
+.link{
+  text-decoration: none;
+ color: grey;
+}
+
+  .topImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .topSearchIcon {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+  }
+  .button3{
+    background-color: orangered; 
+    color: white; 
+    border: 2px solid orangered;
+    border-radius: 4px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .button2:hover {
+    background-color: white;
+    color: orangered;
+  }

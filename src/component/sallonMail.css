@@ -1,0 +1,50 @@
+.sallonMail{
+
+    height: 225px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.sallontitle{
+    color: gray;
+   
+
+}
+.sallonform{
+    margin-top: 50px;
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.formdetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.firstadress{
+    display: flex;
+    flex-direction: column;
+}
+.mailadress{
+    width: 150px;
+    margin-top: 20px;
+}
+.formdetailWrapper{
+    display: flex;
+}
+.formtextarea{
+    height: 75px;
+    
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.labelalign{
+    text-align: left;
+    margin-bottom: 5px;
+}
+.submit{
+    width: 100px;
+}

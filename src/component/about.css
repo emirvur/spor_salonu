@@ -1,0 +1,87 @@
+
+.about{
+    margin-top: 100px;
+    width: 100%;
+}
+.aboutWrapper{
+    height: 800px;
+    width: 100%;
+  
+
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  h1:before,
+  h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+.aboutTitle{
+    height: 20%;
+    width: 100%;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+.descWrapper{
+    width:100%;
+    height: 40%;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutDesc{
+    height: 100%;
+    width: 30%;
+padding: 0px 180px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.aboutPhoto{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.photoContainer{
+    padding: 0px 180px;
+ 
+    height: 100%;
+  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.aboutphoto{
+    width: 800px;
+    height:500px;
+    object-fit: cover;
+}

@@ -1,0 +1,9 @@
+.xcontainer{
+    width: 280px;
+    height: 350px;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+.xdesc{
+    padding: 5px 25px;
+}

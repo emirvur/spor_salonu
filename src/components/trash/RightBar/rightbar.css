@@ -1,0 +1,24 @@
+.rightbar{
+    flex:3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+.hrcl{
+    background-color: red;
+    height: 2px;
+}
+.cat{
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    font-size: 12px;
+    color: #222;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    
+}

@@ -1,0 +1,61 @@
+.xtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+    color: gray;
+}
+.xcontwrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contaiwrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.xsalloninfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+    color: gray;
+}
+
+.xintro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(236, 232, 232);
+}
+.xname{
+    font-size: 36px;
+    margin-left: 30px;
+}
+.xadres{
+    margin-left: 30px;
+}
+.xbut{
+    width: 60px;
+    margin-left: 30px;
+}
+.testxintro{
+    height: 100px;
+    width: 150px;
+    background-color: aqua;
+}
+.testxphot{ 
+    height: 200px;
+    width: 250px;
+    background-color:pink;  
+        position: absolute;
+        left: 20px;
+        top: 40px;
+        z-index: -13;
+}

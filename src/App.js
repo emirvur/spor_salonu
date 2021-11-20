@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Sallonx from './page/sallonx';
+import Topbar from './components/trash/topbar/Topbar';
+import Home from './page/home';
+import SallonDetail from './page/sallonDetail';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Topbar/>
+      <Switch>
+      <Route path='/' exact component={Home} />
+      <Route path='/detail'  component={SallonDetail} />
+      <Route path='/xsal'  component={Sallonx} />
+    
+      </Switch>
+    </Router>
   );
 }
 

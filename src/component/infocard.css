@@ -1,0 +1,33 @@
+.infocard{
+    height: 600px;
+width: 450px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+   margin-bottom: 50px;
+}
+.infophoto{
+    flex: 6;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+.infophot{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.infotitle{
+    flex: 1;
+    padding: 20px 0px 10px 40px;
+}
+.infodesc{
+    flex: 2;
+    text-align: center; 
+    padding: 0px 40px 0px 40px;
+}
+.infofooter{
+    flex:1;
+    text-align: center;
+    
+}
