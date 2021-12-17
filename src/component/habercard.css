@@ -1,0 +1,26 @@
+.habercardwrapper{
+    display: flex;
+    width: 100%;
+    border: 1px solid grey;
+    width: 100%;
+    height: 600px;
+}
+.habercard-photo{
+    flex: 1;
+    background-image: url("https://images.pexels.com/photos/1167355/pexels-photo-1167355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.habercard-text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.habercard-title{
+    color: grey;
+    margin-bottom: 20px;
+}
+.habercard-desc{
+    color: grey;
+    width: 250px;
+}

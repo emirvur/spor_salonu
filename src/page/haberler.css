@@ -1,0 +1,17 @@
+.haberlerwrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.haberlertitle{
+    color: grey;
+    font-size: 48px;
+}
+.haberlerdesc{
+    color: grey;
+    width: 520px;
+  margin: 10px ;
+  font-size: 24px;
+  margin-bottom: 60px;
+}

@@ -24,12 +24,12 @@ export default function Topbar() {
             </Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to="/post">
+            <Link className="link" to="/blog">
               Blog
             </Link>
           </li>
           <li className="topListItem">
-          <Link className="link" to="/">
+          <Link className="link" to="/haberler">
               Haberler
             </Link>
           </li>
@@ -37,7 +37,7 @@ export default function Topbar() {
         </ul>
       </div>
       <div className="topRight">
-      <button className="button button3">Giriş Yap/Üye Ol</button>
+     
     
       </div>
     </div>

@@ -1,0 +1,85 @@
+.signupcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    width: 900px;
+    background-color: rgb(104, 154, 219);
+
+}
+.signup-title{
+    color: white;
+    font-size: 48px;
+}
+input[type=text] {
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
+  .signupform{
+      width: 400px;
+  }
+  .islemler{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: 30px;
+  }
+  .soru{
+     color: white;
+      margin-top: 10px;
+      
+  }
+  .dropbtn-sign {
+    background-color: #aeb1b3; 
+    color: white; 
+    border: 2px solid #aeb1b3;
+    border-radius: 4px;
+    padding: 16px;
+    font-size: 16px;
+  
+    cursor: pointer;
+  }
+  
+  .dropdown-sign {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+  
+  }
+  
+  .dropdown-content-sign {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content-sign a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content-sign a:hover {background-color: #f1f1f1}
+  
+  .dropdown-sign:hover .dropdown-content-sign {
+    display: block;
+  }
+  
+  .dropdown-sign:hover .dropbtn-sign {
+    background-color: aeb1b3;
+  }

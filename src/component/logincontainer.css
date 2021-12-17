@@ -1,0 +1,39 @@
+.logincontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 900px;
+    background-color: rgb(104, 154, 219);
+
+}
+.log-title{
+    color: white;
+    font-size: 48px;
+}
+input[type=text] {
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
+  .islemler{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: 30px;
+  }
+  .soru{
+     color: white;
+      margin-top: 10px;
+      
+  }
